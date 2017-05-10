@@ -1,0 +1,18 @@
+{
+    // Files modified in the last <x> seconds are kept open
+    "limittabs_modified_duration": 1800,
+
+    // Files accessed in the last <x> seconds are kept open as well
+    "limittabs_accessed_duration": 60,
+
+    // Automatically run after a file is saved
+    "limittabs_run_on_post_save": true,
+
+    // If this is set and greater than 0, LimitTabs will only run if
+    // the number of tabs is greater than the threshold setting.
+    "limittabs_threshold": 12,
+
+    // Keep this amount of tabs open. Tabs are closed by last access time
+    // or last modified time, whatever is higher
+    "limittabs_keep_open": 10
+}

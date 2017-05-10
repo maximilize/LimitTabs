@@ -1,6 +1,6 @@
 [
     {
-        "caption": "Tidy Tabs",
-        "command": "tidy_tabs"
+        "caption": "Limit Tabs",
+        "command": "limit_tabs"
     }
 ]
