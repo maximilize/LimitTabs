@@ -1,4 +1,4 @@
-#Limit Tabs for Sublime Text
+# Limit Tabs for Sublime Text
 
 Ever get to the end (middle?) of a day of coding only to find your window littered with tabs that are nearly impossible to search through visually? Find yourself rage-quitting all your tabs in disgust and starting over? No? Just me? Ok.
 
@@ -6,7 +6,7 @@ With this plugin, a simple keystroke `ctrl + alt + w` will close all tabs, the o
 
 You can change the key binding in Preferences > Package Settings > LimitTabs > Key Bindings.
 
-##Run automatically
+## Run automatically
 
 You can also configure the plugin to automatically close old tabs each time you save a file. To enable this, go to Preferences > Package Settings > LimitTabs > Settings and set `limittabs_run_on_post_save` to `true`:
 
@@ -15,7 +15,7 @@ You can also configure the plugin to automatically close old tabs each time you 
 "limittabs_run_on_post_save": true,
 ~~~
 
-##Threshold
+## Threshold
 
 Another configuration option is the **threshold**. Setting this to 0 disables this plugin, a number greater than 0 will keep always at least this amount of tabs open
 
@@ -25,7 +25,7 @@ Another configuration option is the **threshold**. Setting this to 0 disables th
 "limittabs_threshold": 12,
 ~~~
 
-##Keep open minimum files
+## Keep open minimum files
 
 The setting variable **keep_open** lets you choose a number of tabs that will always kept open
 
@@ -35,17 +35,17 @@ The setting variable **keep_open** lets you choose a number of tabs that will al
 "limittabs_threshold": 10
 ~~~
 
-##Installation with Package Manager (Recommended)
+## Installation with Package Manager (Recommended)
 
 The easiest way to install is via the excellent [Sublime Package Manager](https://sublime.wbond.net/installation). Once Package Manager is installed, bring up the commands menu (`Command + Shift + P` on Mac, `Control + Shift + P` on Windows or Linux), then type "Package Control" to filter the commands list. Select the "Package Control: Install Package" command, then find and install the LimitTabs plugin.
 
-##Installation without Package Manager
+## Installation without Package Manager
 Clone or download this repo to your **Packages** folder.
 
-##Fork
+## Fork
 This is a fork of the [TidyTabs-Sublime](https://github.com/bradleyboy/TidyTabs-Sublime/) plugin.
 
-##License
+## License
 Licensed under the MIT license.
 
 Copyright (c) Brad Daily
