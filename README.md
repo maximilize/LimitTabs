@@ -32,7 +32,7 @@ The setting variable **keep_open** lets you choose a number of tabs that will al
 ~~~js
 // Keep this amount of tabs open. Tabs are closed by last access time
 // or last modified time, whatever is higher
-"limittabs_threshold": 10
+"limittabs_keep_open": 10
 ~~~
 
 ## Installation with Package Manager (Recommended)
